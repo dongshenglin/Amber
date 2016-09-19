@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D2B6E9C1D8FC15300F69CC3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B6E9B1D8FC15300F69CC3 /* MainViewController.m */; };
 		6DA57D8C1D8FBA5100FBD5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA57D8B1D8FBA5100FBD5E3 /* main.m */; };
 		6DA57D8F1D8FBA5200FBD5E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA57D8E1D8FBA5200FBD5E3 /* AppDelegate.m */; };
 		6DA57D921D8FBA5200FBD5E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA57D911D8FBA5200FBD5E3 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D2B6E9A1D8FC15300F69CC3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D2B6E9B1D8FC15300F69CC3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6DA57D871D8FBA5000FBD5E3 /* AmberScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmberScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA57D8B1D8FBA5100FBD5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DA57D8D1D8FBA5200FBD5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				6DA57D8D1D8FBA5200FBD5E3 /* AppDelegate.h */,
 				6DA57D8E1D8FBA5200FBD5E3 /* AppDelegate.m */,
+				6D2B6E9A1D8FC15300F69CC3 /* MainViewController.h */,
+				6D2B6E9B1D8FC15300F69CC3 /* MainViewController.m */,
 				6DA57D901D8FBA5200FBD5E3 /* ViewController.h */,
 				6DA57D911D8FBA5200FBD5E3 /* ViewController.m */,
 				6DA57D931D8FBA5200FBD5E3 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				6DA57D921D8FBA5200FBD5E3 /* ViewController.m in Sources */,
 				6DA57D8F1D8FBA5200FBD5E3 /* AppDelegate.m in Sources */,
 				6DA57D8C1D8FBA5100FBD5E3 /* main.m in Sources */,
+				6D2B6E9C1D8FC15300F69CC3 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				6DA57DA01D8FBA5300FBD5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
